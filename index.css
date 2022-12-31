@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.mainNav {
+    background-color: rgba(0, 0, 0, 1);
+    padding-right: 20px;
+    color: white;
+}
+
+.navbar {
+    font-weight: 100;
+    text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+    border-radius: 20%;
+    margin: 0 auto;
+    border: 2px solid orange;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid orange;
+}
+
+#home {
+
+    min-height: 100vh;
+    background-image: url(./laptop.jpg);
+
+}
+
+section {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home-text {
+
+
+    background-color: black;
+    opacity: 0.8;
+    color:#ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 65%;
+
+}
+
+.home-row{
+    height: 100vh;
+}
+
+#aboutme {
+   
+    
+    line-height: 20px !important;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  
+}
+
+.aboutme-div {
+    background-color: black;
+}
+
+#imgcard {
+    max-width: 200px;
+    margin: 30px auto;
+    border-radius: 50%;
+    
+    box-shadow: 1px 1px 5px 5px orange;
+}
+
+.aboutme-span, .about-span {
+    color: orange;
+}
+.about-span {
+    font-style: italic;
+}
+
+.h4-about {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: red;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+
+}
+
+.aboutme {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.aboutme p {
+
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#skills {
+    color: black;
+}
+
+
+.icon-skills {
+    align-items: center;
+    width: 55px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.border-skills {
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.contenedor-skills {
+    margin: 0px auto;
+    display: flex;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+fieldset,
+legend,
+.contenedor-skills div {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.leyenda {
+    font-size: 16px;
+    color: orange;
+}
+
+.contenedor-skills p {
+    text-align: center;
+    font-size: 10px;
+    margin: 1px !important;
+
+}
+
+#projects {
+    background-color: black;
+    margin-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+
+
+.container-projects {
+  
+
+    margin: 0 auto;
+  width:100%;
+    max-height: 200vh !important;
+}
+
+#projects h2 {
+    color: orange;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.small-text {
+    display: none;
+}
+
+.lng {
+    color: white;
+    height: 20px;
+    margin-right: 5px;
+    width: 20px;
+}
+
+.project-image {
+    background-image: url(./1-projecto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    max-height: 30vh;
+}
+.project-img {
+max-width: 100%;
+opacity: 0;
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+
+.project-item {
+    display: flex;
+  max-height: 100vh;
+  padding-bottom: 5px;
+}
+
+.project-title-small {
+    display: none;
+}
+
+.project-text-small {
+    display: none;
+}
+
+.project {
+    border-radius: 0.25rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid orange;
+}
+
+.decription-project {
+    display: block;
+    color: #ffffff;
+}
+
+.project-content {
+    padding: 1rem;
+    background: black;
+}
+
+.project-title {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.project-text {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.2rem;
+}
+
+.description-project {
+    color:#ffffff;
+}
+
+.project-text a {
+    text-decoration: none;
+    color: orange;
+}
+.orange {
+    color:orange;
+}
+.project-text a:hover {
+    color: orangered;
+}
+
+.visit-project {
+    color: #ffffff!important;
+}
+
+.visit-project-p:hover{
+    background-color: orangered;
+}
+.visit-project-p{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: blueviolet;
+    padding: 2px;
+}
+#hobbies {
+
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+
+}
+#hobbies h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgcard {
+    max-width: 100%;
+    max-height: auto;
+    opacity: 0;
+}
+
+.bg-1 {
+    background-image: url(./camino.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 70vh;
+    border-bottom: 20px white solid;
+}
+
+.bg-2 {
+    background-image: url(./praga.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 70vh;
+    border-bottom: 20px white solid;
+}
+.bg-3 {
+    background-image: url(./portugal.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 70vh;
+    border-bottom: 20px white solid;
+
+}
+
+.polaroid {
+
+    border-bottom: 10px white solid;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+
+.RotarDer {
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}
+
+.textohobby {
+    background-color: white;
+    width: 100%;
+    display: block;   
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    
+}
+
+
+.button-car {
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    margin-top: 60px!important;
+    
+}
+
+.button-car:hover {
+    background-color: red;
+}
+
+#contact {
+
+    max-height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+    
+}
+
+
+
+.div-contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    
+}
+
+
+.div-contact h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.div-contact {
+
+    box-shadow: 12px 12px 2px 1px rgba(13, 13, 16, 0.2);
+    background-color: black;
+
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.email, .name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid orange!important;
+    color:white!important
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1)!important;
+    
+}
+.name:focus {
+    border: 1px solid orangered!important;
+    
+    
+}
+.email:focus{
+    border: 1px solid orangered!important;
+    
+}
+.email:hover{
+    border-bottom: 1px solid orangered!important;
+}
+.name:hover{
+    border-bottom: 1px solid orangered!important;
+}
+.message {
+    margin-bottom: 10px;
+}
+::placeholder {
+    color: white!important;
+    font-size: 1rem !important;
+    margin-right: 20px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+
+}
+
+.form-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.textarea-form:focus {
+border:  1px solid orangered!important;;
+}
+.textarea-form:hover {
+    border: 1px solid orangered;
+
+}
+
+.textarea-form .form-control{
+    height: auto;
+    
+}
+.textarea-form {
+    border: 1px solid orange;
+    color: white!important;
+    
+}
+
+.input {
+    position: relative;
+    padding: 15px 15px 15px 35px;
+    
+    
+}
+.input-icon {
+    position: absolute;
+    color: orange;
+	position: absolute;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+label.form-label {
+    display: inline-block;
+    margin-top: 10px;
+    
+    color: white;
+    font-size: 1rem;
+    
+}
+.form-btn {
+    display: inline-block;
+    font-weight: 400;  
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    margin:5px;
+    line-height: 1.5;
+    border-radius: 10px;
+    
+}
+.form-btn:hover {
+    background-color: orangered;
+}
+
+
+.form-btn:focus {
+    
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: black;
+    color: orange;
+
+
+}
+
+
+@media (max-width: 800px) {
+
+    .nav-link:hover {
+        border-bottom: none;
+        background-color: orange;
+    }
+
+    .project-image {
+        height: 100%;
+        size-adjust: center;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .aboutme p {
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    #hobbies p {
+        font-size: 0.8rem !important;
+
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1.2rem !important
+    }
+
+    .home-text h1 {
+    font-size: 1.4rem;
+    }
+    .icon-skills {
+    align-items: center;
+    width: 45px;
+    margin: 3px 3px;
+    }
+    .contenedor-skills p {
+    font-size: 8px;
+    margin: 1px;
+    }
+    
+}
+@media (max-width: 800px) and (max-height:626px){
+    .home-text {
+        top: 29%;
+    }
+    .leyenda {
+        font-size: 1rem;
+    }
+    .home-text h1 {
+        font-size: 1.2rem !important;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1rem !important;
+    }
+
+    .project-text,
+    .project-text-small a,
+    .project-title {
+        font-size: 0.8rem !important;
+        margin: 1px !important;
+        padding: 1px!important;
+    }
+
+    .project-title {
+        font-size: 0.8rem !important;
+    }
+
+    .project-text,
+    .project-text-small a,
+    label,
+    ::placeholder,
+    .orange,
+    .form-btn,
+    .textarea-form,
+    .input
+    {
+        font-size: 0.8rem !important;
+
+    }
+    .project-title {
+        font-size: 0.8rem !important;
+    }
+    .lng {
+        height: 12px;
+        width: 12px;
+    }
+}
+
+@media (max-height: 560px) {
+
+textarea {
+    max-height: 80px;
+}
+
+.textarea-form{
+    margin-top: 20px;
+}
+.form-btn{
+    margin: 2px;
+}
+.orange{
+    margin-bottom: 2px;
+}
+::placeholder {
+    font-size: 12px !important;
+}
+
+input {
+    max-height: 26px !important;
+}
+
+
+}
+
+
+@media (min-width: 492px) {
+    .project-item {
+        width: 50%;
+    }
+
+
+    .project-item:nth-child(odd){
+        padding-right: 5px;
+    }
+
+
+
+}
+
+@media (min-width: 780px) {
+    .project-item {
+        width: 33%;
+    }
+
+  #projects {
+    padding-bottom:100px;
+}
+.project-item:nth-child(3){
+    padding-right: 0px;
+}
+  .project-item:nth-child(2){
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 780px) {
+    .description-project {
+        display: none !important;
+    }
+
+    #imgcard {
+        max-width: 170px;
+    }
+
+}
+
+
+
+
+@media (max-width:495px) and (max-height:800px){
+    .project {
+        flex-direction: row;
+    }
+}
+
+@media (max-width:495px) {
+    .project {
+        flex-direction: row;
+    }
+
+}
+
+@media  (max-height:450px){
+
+.project {
+    min-height:150px;
+}
+}
+
+@media(max-width:768px){
+    .home-row {
+        max-height: 50vh;
+        padding-top: 20%;
+    }
+}
+
+@media(max-width:400px)    
+{
+.home-row {
+  
+    padding-top: 35%;
+}
+}
+
+@media(max-height:525px) and (max-width:764px){
+    #imgcard {
+        display: none;
+    }
+}
